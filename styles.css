@@ -80,10 +80,6 @@ body {
   transition: 0.5s ease;
 }
 
-.select_wrap .select_ul li:last-child .option {
-  margin-bottom: 0;
-}
-
 .select_wrap .select_ul li .option:hover {
   background: var(--secondary-clr);
 }
@@ -155,7 +151,6 @@ body {
 .select_wrap .default_option.active .option .icon{
   transform: rotate(180deg);
 }
-
 
 .select_wrap .select_ul li .option .input:checked ~ .checkmark:before,
 .select_wrap .select_ul li .option .input:checked ~ .checkmark:after {
