@@ -38,3 +38,14 @@ select_ul_item.forEach(function (item) {
     });
   });
 });
+
+/**
+ * Retrieve selected checkboxes
+ */
+// let inputElements = document.getElementsByClassName("input");
+// for (let i = 0; inputElements[i]; ++i) {
+//   if (inputElements[i].checked) {
+//     let checkedValue = inputElements[i].value;
+//     console.log(checkedValue);
+//   }
+// }
